@@ -23,6 +23,21 @@ int main () {
     //3. Entrada de Dados com scanf()
     printf("Digite a matrícula do aluno: ");
     scanf("%d", &matricula); //O operador & é usado para obter o endereço de memória da variável matricula, permitindo que scanf() armazene o valor digitado pelo usuário nessa variável.
+    
     printf("Digite o nome do aluno: ");
     scanf("%s", nome); //O operador & é usado para obter o endereço de memória da variável nome, permitindo que scanf() armazene o valor digitado pelo usuário nessa variável.
-}    
+
+    pritnf("Digite a Nota 1 (0 a 10): ");
+    scan("xf", &nota1);
+
+    printf("Digite a Nota 2 (0 a 10): ");
+    scanf("%f", &nota2);
+
+    printf("Digite a Nota 3 (0 a 10): ");
+    scanf("%f", &nota3);
+
+    printf("Difite a frequência (em %%): ");
+    scanf("%f", &frequencia);
+
+
+}
