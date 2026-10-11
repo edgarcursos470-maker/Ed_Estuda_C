@@ -1,0 +1,9 @@
+# Executáveis e arquivos intermediários gerados pela compilação
+main
+*.o
+*.out
+build/
+bin/
+
+# Logs locais do VS Code
+.vscode/*.log

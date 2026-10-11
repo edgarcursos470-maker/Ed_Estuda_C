@@ -25,10 +25,10 @@ int main () {
     scanf("%d", &matricula); //O operador & é usado para obter o endereço de memória da variável matricula, permitindo que scanf() armazene o valor digitado pelo usuário nessa variável.
     
     printf("Digite o nome do aluno: ");
-    scanf("%s", nome); //O operador & é usado para obter o endereço de memória da variável nome, permitindo que scanf() armazene o valor digitado pelo usuário nessa variável.
-
-    pritnf("Digite a Nota 1 (0 a 10): ");
-    scan("xf", &nota1);
+    scanf("%s", nome); //no caso do scanf() para strings, não é necessário usar o operador & antes do nome da variável, pois o nome do array já representa o endereço de memória do primeiro elemento do array.
+    
+    printf("Digite a Nota 1 (0 a 10): ");
+    scanf("%f", &nota1);
 
     printf("Digite a Nota 2 (0 a 10): ");
     scanf("%f", &nota2);
@@ -39,5 +39,20 @@ int main () {
     printf("Difite a frequência (em %%): ");
     scanf("%f", &frequencia);
 
+    // 4. Processameto: Cálculo da Média Aritmética
+    media = (nota1 + nota2 + nota3) / 3.0;
+
+    // 5. Saída de Dados Formatada com printf()
+    printf("\n=================================================\n");
+    printf("                 RESULTADO FINAL                  \n");
+    printf("===================================================\n");
+    printf("Matrícula : %d\n", matricula);
+    printf("Nome      : %s\n", nome);
+    printf("Notas     : %2.f | %.2f | %.2f\n", nota1, nota2, nota3);
+    printf("Media Final: %.2f\n", media);
+    printf("Frequencia : %.1f%%\n", frequencia);
+    printf("---------------------------------------------------\n");
+
+    return 0; //Indica que o programa terminou com sucesso. O valor 0 é geralmente usado para indicar sucesso, enquanto outros valores podem indicar diferentes tipos de erros.
 
 }
