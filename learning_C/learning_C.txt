@@ -1,0 +1,2 @@
+Nesta paasta, vou praticar exercícios de programação em C,
+guiando-me pelo respositório github.com/h0mbre/Leaning-C.
