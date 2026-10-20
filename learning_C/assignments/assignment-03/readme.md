@@ -1,4 +1,4 @@
-Prompt the user to input their first and last name and then print them a welcome message. Try stroring the input as a char variable's valuw. 
+Prompt the user to input their first and last name and then print them a welcome message. Try stroring the input as a char variable's valuw.
 
 Easy Mode: Allocate an arbitrary amout of indices to your char array and pray to the gods that the use input fits.
 
@@ -6,7 +6,13 @@ Extra Credit: Dynamically allocate the array size of your char varable based on 
 
 Exemplo Output:
 
-tokyo:~/LearningC/ # ./assignment3                                     
-Enter your first name: Jimmy
+```
+tokyo:~/LearningC/ # ./assignment3Enter your first name: Jimmy
 Enter your last name: Smith
 Hello Jimmy Smith!
+```
+
+
+Reference:
+
+[https://github.com/h0mbre/Learning-C/blob/master/Assignment-03/assignment3.c](https://)
