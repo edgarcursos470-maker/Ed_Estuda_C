@@ -1,13 +1,11 @@
 
 #include <stdio.h>
-#include <stdlib.h>
-
+#include <stdlib.h> //necessário para malloc() e free()
 
 int main() {
 
     char first_name[50];
     char last_name[50];
-
 
     printf("Enter your first name: ");
     scanf("%s", first_name);
